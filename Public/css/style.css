@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;    
+    background-color: #241a83;
+    position: relative;
+}
+.wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+::placeholder{
+    color: aliceblue;
+}
+.logoPag{
+    height: 80px;
+    width: 300px;
+    position: initial;
+}
+.first-section{
+    background-image: url("..//img/wall2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+    
+}
+.degrad{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.8;
+    
+}
+
+.head-container nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 2%;
+    position: initial;
+}
+.head-container nav ul{
+    list-style-type: none;
+    display: flex;
+    align-content: space-around;
+}
+.head-container nav ul li{
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 25px;
+}
+.head-container nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.intro header{
+    width:100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Poppins", sans-serif;
+    position: initial;
+}
+
+.intro header h1{
+    font-size: 7rem;
+    font-weight: lighter;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: aliceblue;
+
+}
+ h1, h2{
+    font-family: "Poppins", sans-serif;
+    color: black;
+ }
+.intro header p{
+    text-transform: uppercase;
+    color: azure;
+    font-size: 1.1rem;
+}
+
+.buttonStarted{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 20px;
+    border: 1px solid thistle;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    background-color: transparent;
+    color: aliceblue;
+}
+.buttonStarted:hover{
+    background-image: -webkit-linear-gradient(0deg, #241a83 0%, #3277b4 100%);
+}
+.scnd-sect article{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10% 1%;
+    background-color: aliceblue;
+    position: initial;
+}
+.scnd-side img{
+    width: 100%;
+}
+
+.scnd-sect article .buttonStarted{
+    background-image: -webkit-linear-gradient(0deg, #241a83 0%, #3277b4 100%);
+}
+.frst-side{
+    padding-right: 30px;
+}
+.frst-side h2{
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 1.2em;
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+.frst-side p{
+    padding-bottom: 5%;
+}
+
+
+.Thrd-sect article{
+    display: flex;
+    /*grid-template-columns: 500px auto;*/
+    justify-content: flex-end;
+    background-image: url("..//img/paralax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: initial;
+    
+}
+
+.to-right{
+    width: 50%;
+    padding: 10% 0.5% 10% 0%;
+    color: honeydew;
+}
+.to-right h2{
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 1.2em;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: azure;
+}
+.to-right p{
+    padding-bottom: 5%;
+}
+
+.album{
+    padding: 10% 4% 10% 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+    padding-bottom: 100px;
+    background-color: aliceblue;
+    position: relative;
+    
+}
+
+.album div img{
+    width: 100%;
+    height: 350px;
+    position: relative; 
+}
+/*
+album div .hover{
+    z-index: 10;
+    position: sticky;
+}*/
+.contact{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-image: url("..//img/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.contact .degrad2{
+    background-image: -webkit-linear-gradient(0deg, #3224b0 0%, #be5ede 100%);
+    opacity: 0.9;
+}
+.head-contact{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+}
+.head-contact h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: aliceblue;
+}
+.head-contact p{
+    color: aliceblue;
+}
+
+.container-textbox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.name-left{
+    grid-column: 1;
+}
+.name-left input{
+    width: 95%;
+    padding-left: 2%;
+    line-height: 2.2rem;
+    background-color: transparent;
+    
+}
+.email-right input{
+    width: 95%;
+    padding-left: 2%;
+    line-height: 2.2rem;
+    background-color: transparent;
+ 
+}
+.comment{
+    padding-top:2%;
+    width: 100%;
+    height: 150px;
+    padding-left: 10%;
+    padding-right: 10;
+}
+.comment input{
+    display: block;
+    padding-left: 2%;
+    width: 80%;
+    height: 100%;
+    line-height: 2.2rem;
+    background-color: transparent;
+    
+}
+
+.bttn-right{
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.subscribe{
+    background-color: aliceblue;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+.subscribe .buttonStarted{
+    background-image: -webkit-linear-gradient(0deg, #241a83 0%, #3277b4 100%);
+
+}
+.subscribe ::placeholder{
+    color: #777777;
+}
+.subscribe h3{
+    color: black;
+    font-size: 2.5rem;
+    line-height:1.5;
+    font-weight: lighter;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.subscribe p{
+    padding-top: 3%;
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+    width: 100%;
+    height: 275px;
+    text-align: center;
+    position: relative;
+}
+.cajita-foot{
+    padding-top: 8%;
+    padding-left: 25%; 
+    padding-bottom: 10%;
+    padding-right:25%;
+}
+.navi ul{
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 3%;
+    justify-content: space-evenly;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 1.5em;
+}
+.navi ul li a:hover{
+    color: #241a83;
+}
+.social ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+.social ul li {
+    margin: 3%;
+}
+.social ul li a{
+    color: aliceblue;
+}
+.social ul li a:hover{
+    color: #241a83;
+}/*
+.album div{
+    visibility: hidden;
+}*/
+.album div:hover {
+    z-index: 10;
+    background: rgba(255, 0, 0, 0.5);
+    
+ 
+}
+
